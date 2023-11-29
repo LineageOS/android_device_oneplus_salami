@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e403a228_9ec0aad0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-29T17:02:27Z",
+      "side": 1,
+      "message": "Still WIP, missing build fingerprint update at least.",
+      "revId": "e593a30addf3afd6d336cfc1600e8346ac3e3716",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
