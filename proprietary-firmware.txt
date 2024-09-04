@@ -15,7 +15,6 @@ imagefv.img;AB
 keymaster.img;AB
 modem.img;AB
 oplus_sec.img;AB
-oplusstanvbk.img;AB
 qupfw.img;AB
 shrm.img;AB
 splash.img;AB
