@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "401302ee_fdcc4b8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18568
+      },
+      "writtenOn": "2024-09-04T12:46:19Z",
+      "side": 1,
+      "message": "With this image, Chinese version OnePlus 11(model: PHB110) gets bootloop. Flash image extracted from Chinese version can solve this issue. I recommend stop shipping this image in release?",
+      "revId": "a50155e28c61fb0abbf8ee0df557e9bfe33e31d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
