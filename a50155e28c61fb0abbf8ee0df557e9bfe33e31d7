@@ -34,6 +34,24 @@
       "parentUuid": "401302ee_fdcc4b8e",
       "revId": "a50155e28c61fb0abbf8ee0df557e9bfe33e31d7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74d90dcd_b4adc7de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18568
+      },
+      "writtenOn": "2024-09-07T09:03:19Z",
+      "side": 1,
+      "message": "https://pastebin.com/uGh8iQKb\nSome qcom subsystem crashed with wrong image.",
+      "parentUuid": "7e6e0b80_dd22efe0",
+      "revId": "a50155e28c61fb0abbf8ee0df557e9bfe33e31d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
