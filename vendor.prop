@@ -1,6 +1,10 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus 11 5G
 
+# Fingerprint
+ro.vendor.fingerprint.type=udfps_optical
+ro.vendor.fingerprint.sensor_location=720|2463|114
+
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
