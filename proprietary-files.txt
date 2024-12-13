@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_14.0.0.832(EX01)).
+## are from OnePlus 11 (CPH2449_15.0.0.203(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -200,7 +200,9 @@ odm/etc/sensor/config/kailua_mtp_cct_rear.json
 odm/etc/sensor/config/kailua_mtp_freefall.json
 odm/etc/sensor/config/kailua_mtp_icm4x6xx.json
 odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
+odm/etc/sensor/config/kailua_mtp_oplus_flight_detect.json
 odm/etc/sensor/config/kailua_mtp_oplus_lay.json
+odm/etc/sensor/config/kailua_mtp_pocket.json
 odm/etc/sensor/config/kailua_mtp_sx933x_0.json
 odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json
 odm/etc/sensor/config/lux_aod.json
