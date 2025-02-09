@@ -92,6 +92,12 @@ odm/etc/camera/camera_engmode.xml
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
 
+# Charger firmware
+odm/firmware/fastchg/22861/bms_heating_config.txt
+odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
+odm/firmware/fastchg/22861/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
+
 # Display (Pixelworks)
 odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
 odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
