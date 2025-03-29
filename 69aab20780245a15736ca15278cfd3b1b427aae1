@@ -16,6 +16,24 @@
       "message": "Considering that we never touched these configs for our own benefit since the bringup and that dodge is moving these to proprietary-files, I might do the same here...",
       "revId": "69aab20780245a15736ca15278cfd3b1b427aae1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d3a5b3b_ac8d105e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-03-29T11:24:13Z",
+      "side": 1,
+      "message": "yea, move everything untouched to vendor and call it a day",
+      "parentUuid": "302235f1_8359867c",
+      "revId": "69aab20780245a15736ca15278cfd3b1b427aae1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
