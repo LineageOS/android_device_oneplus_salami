@@ -220,9 +220,6 @@ odm/firmware/tp/22811/FW_S3908_SAMSUNG_FAE.img
 odm/firmware/tp/22811/FW_S3908_SAMSUNG_sys_edge_touch_config.img
 odm/firmware/tp/22811/LIMIT_S3908_SAMSUNG.img
 
-# Vibrator
-odm/etc/aac_richtap.config
-
 # WiFi
 odm/etc/wifi/kiwi/bdwlan.b0a
 odm/etc/wifi/kiwi/bdwlan.b0e
