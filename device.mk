@@ -31,6 +31,14 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22811/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22811/build.default.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22861/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/22861/build.EU.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22861/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/22861/build.IN.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22861/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/22861/build.NA.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22861/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22861/build.default.prop
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
