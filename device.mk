@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Power
+$(call soong_config_set,qtipower,tap_to_wake_node,/proc/touchpanel/double_tap_enable)
+
 # Regional properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22811/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22811/build.default.prop \
