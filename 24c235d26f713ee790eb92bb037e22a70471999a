@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf92dd93_2f287bce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-26T15:42:59Z",
+      "side": 1,
+      "message": "Allows to override for example ro.odm.build.fingerprint, but not the relevant one.",
+      "revId": "24c235d26f713ee790eb92bb037e22a70471999a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
