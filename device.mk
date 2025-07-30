@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
+$(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
