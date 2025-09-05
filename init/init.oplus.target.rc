@@ -1,0 +1,11 @@
+#
+# Copyright (C) 2022-2025 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on property:ro.boot.prjname=22811
+    setprop persist.vendor.display.pxlw.iris_feature 0x407f0780
+
+on property:ro.boot.prjname=22861
+    setprop persist.vendor.display.pxlw.iris_feature 0x400080
