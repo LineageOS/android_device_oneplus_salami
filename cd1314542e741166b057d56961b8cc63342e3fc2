@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "631b089b_ca9be4e9",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T21:07:10Z",
+      "side": 1,
+      "message": "This needs to come before BoardConfigCommon.mk include. I\u0027ll do a separate change this anyway.",
+      "revId": "cd1314542e741166b057d56961b8cc63342e3fc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7806fcbc_67655ccf",
+        "filename": "init/init.oplus.target.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T21:07:10Z",
+      "side": 1,
+      "message": "Can be done via prop files. I already have a separate change for it.",
+      "revId": "cd1314542e741166b057d56961b8cc63342e3fc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
