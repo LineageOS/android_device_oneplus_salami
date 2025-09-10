@@ -1,1 +1,3 @@
 import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
+
+persist.vendor.display.pxlw.iris_feature=0x400080
