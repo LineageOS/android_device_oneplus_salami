@@ -1,3 +1,5 @@
+persist.vendor.display.pxlw.iris_feature=0x407f0780
+
 ro.product.odm.device=OP591BL1
 ro.product.odm.model=PHB110
 ro.product.odm.name=PHB110
