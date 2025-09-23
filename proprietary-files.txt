@@ -1380,7 +1380,8 @@ odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_22861:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_22811:odm/etc/libnfc-mtp-SN100.conf_22811
+odm/etc/nfc/libnfc-mtp-SN100.conf_22861:odm/etc/libnfc-mtp-SN100.conf_22811
 odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
