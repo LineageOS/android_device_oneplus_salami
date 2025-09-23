@@ -1,0 +1,15 @@
+#
+# SPDX-FileCopyrightText: 2025 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on property:ro.boot.prjname=*
+    setprop persist.vendor.nfc.config_file_name libnfc-mtp-SN100.conf_${ro.boot.prjname}
+    start vendor.nfc_hal_service
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
+    override
+    class early_hal
+    user nfc
+    group nfc drmrpc system
+    disabled
