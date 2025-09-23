@@ -1,6 +1,11 @@
-persist.vendor.display.pxlw.iris_feature=0x407f0780
-
+# Device info
 ro.product.odm.device=OP591BL1
 ro.product.odm.model=PHB110
 ro.product.odm.name=PHB110
 ro.vendor.oplus.regionmark=CN
+
+# Display
+persist.vendor.display.pxlw.iris_feature=0x407f0780
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_22811
