@@ -1,3 +1,7 @@
 import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
 
+# Display
 persist.vendor.display.pxlw.iris_feature=0x400080
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_22861
