@@ -10,6 +10,6 @@
         android:isStatic="true"
         android:priority="250"
         android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.boot.prjname"
-        android:requiredSystemPropertyValue="22861" />
+        android:requiredSystemPropertyName="ro.vendor.oplus.radio.esim.feature"
+        android:requiredSystemPropertyValue="2" />
 </manifest>
