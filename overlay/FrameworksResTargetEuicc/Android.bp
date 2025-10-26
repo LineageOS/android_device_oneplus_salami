@@ -1,0 +1,16 @@
+//
+// SPDX-FileCopyrightText: 2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "FrameworksResEuicc_EU",
+    manifest: "AndroidManifest_EU.xml",
+    vendor: true,
+}
+
+runtime_resource_overlay {
+    name: "FrameworksResEuicc_NA",
+    manifest: "AndroidManifest_NA.xml",
+    vendor: true,
+}

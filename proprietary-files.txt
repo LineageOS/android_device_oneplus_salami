@@ -1357,6 +1357,10 @@ vendor/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml
 
+# eUICC
+my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
+my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+
 # Fingerprint firmware
 odm/vendor/firmware/uff_gx.b00
 odm/vendor/firmware/uff_gx.b01
