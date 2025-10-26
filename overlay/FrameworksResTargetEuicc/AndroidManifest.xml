@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: 2025 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.overlay.target.euicc">
+
+    <overlay
+        android:isStatic="true"
+        android:priority="250"
+        android:targetPackage="android"
+        android:requiredSystemPropertyName="ro.vendor.oplus.esim.support"
+        android:requiredSystemPropertyValue="2" />
+</manifest>
