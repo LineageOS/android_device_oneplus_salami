@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_15.0.0.862(EX01)).
+## are from OnePlus 11 5G (CPH2449_16.0.1.300(EX01)).
 
 # Current blobs with ELF checks disabled:
 # libclstc_fodcolor_csc depends on libhdr_backlight_adapter which is in common tree
@@ -450,6 +450,7 @@ odm/etc/camera/meishe_lut/White.cube.rgb.bin
 odm/etc/camera/meishe_lut/black_gold.bin
 odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
 odm/etc/camera/meishe_lut/bright_coloured.bin
+odm/etc/camera/meishe_lut/city.cube.rgb.bin
 odm/etc/camera/meishe_lut/cola.bin
 odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/drjw1994.bin
@@ -477,12 +478,14 @@ odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin
 odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin
 odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin
 odm/etc/camera/meishe_lut/interstellar_space.bin
+odm/etc/camera/meishe_lut/island.cube.rgb.bin
 odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/kodak.cube.rgb.bin
 odm/etc/camera/meishe_lut/meicam.child.bin
 odm/etc/camera/meishe_lut/mono.cube.rgb.bin
 odm/etc/camera/meishe_lut/morandi.cube.rgb.bin
+odm/etc/camera/meishe_lut/mountains.cube.rgb.bin
 odm/etc/camera/meishe_lut/natural.cube.rgb.bin
 odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin
 odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin
@@ -957,6 +960,8 @@ odm/lib64/libaisd.so
 odm/lib64/libaiseg.so
 odm/lib64/libaisr.so
 odm/lib64/libalCFR.so
+odm/lib64/libalog.so
+odm/lib64/libalogencrypt.so
 odm/lib64/libancbase_rt_fusion.so;FIX_SONAME
 odm/lib64/libancbase_segbase.so
 odm/lib64/libancbase_segment.so
@@ -1002,6 +1007,8 @@ odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
 odm/lib64/libcreatebin.so
+odm/lib64/libcreatebinForBaseretouch.so
+odm/lib64/libcreatebinForFaceretouch.so
 odm/lib64/libcustomer_halalgovisual.so
 odm/lib64/libcvface_api.so
 odm/lib64/libdlrmsc.so
