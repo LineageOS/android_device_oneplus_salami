@@ -1383,11 +1383,14 @@ odm/vendor/firmware/uff_spi.b07
 odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
-# NFC
+# NFC configs
 odm/etc/nfc/libnfc-mtp-SN100.conf_22811:odm/etc/libnfc-mtp-SN100.conf_22811
 odm/etc/nfc/libnfc-mtp-SN100.conf_22861:odm/etc/libnfc-mtp-SN100.conf_22861
 odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
-odm/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
+
+# NFC firmware
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_60:vendor/firmware/sn100u_22861.bin
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u_22811.bin
 
 # Sensors config
 odm/etc/sensor/config/kailua_mtp_ak0991x.json
