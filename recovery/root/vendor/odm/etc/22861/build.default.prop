@@ -5,3 +5,4 @@ persist.vendor.display.pxlw.iris_feature=0x400080
 
 # NFC
 persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_22861
+persist.vendor.nfc.fw_file_name=sn100u_22861
