@@ -10,6 +10,10 @@ odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/acdb_cal.acdb
 
+# ADSP modules
+odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so
+odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so
+
 # Audio configs
 odm/etc/mixer_paths.xml
 odm/etc/resourcemanager.xml
