@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022-2023 The LineageOS Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-
-    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
-    <dimen name="config_rounded_mask_size">156px</dimen>
-
-    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
-         relies on this value will not be sized correctly. -->
-    <item name="pixel_pitch" format="float" type="dimen">48.3</item>
-
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">0px</dimen>
 
@@ -27,7 +19,14 @@
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
 
-    <!-- Location on the screen of the center of the physical power button. -->
+    <!-- Location on the screen of the center of the physical power button. This is a reasonable
+    default that should be overridden by device-specific overlays. -->
     <dimen name="physical_power_button_center_screen_location_y">1000px</dimen>
 
+    <!-- Default device corner radius, used for assist UI -->
+    <dimen name="config_rounded_mask_size">156px</dimen>
+
+    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+         relies on this value will not be sized correctly. -->
+    <item name="pixel_pitch" format="float" type="dimen">48.3</item>
 </resources>

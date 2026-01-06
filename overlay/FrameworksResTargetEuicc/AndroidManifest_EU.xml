@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    SPDX-FileCopyrightText: 2025 The LineageOS Project
-    SPDX-License-Identifier: Apache-2.0
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.overlay.target.euicc">
-
-    <overlay
-        android:isStatic="true"
-        android:priority="250"
-        android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.boot.prjname,ro.boot.hardware.revision"
-        android:requiredSystemPropertyValue="22861,EU" />
+          package="android.overlay.target.euicc">
+    <overlay android:targetPackage="android"
+             android:isStatic="true"
+             android:priority="250"
+             android:requiredSystemPropertyName="ro.boot.prjname,ro.boot.hardware.revision"
+             android:requiredSystemPropertyValue="22861,EU" />
 </manifest>
