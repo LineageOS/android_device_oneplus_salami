@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    SPDX-FileCopyrightText: 2025 The LineageOS Project
-    SPDX-License-Identifier: Apache-2.0
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- Device-specific array of SIM slot indexes which are are embedded eUICCs.
          e.g. If a device has two physical slots with indexes 0, 1, and slot 1 is an
          eUICC, then the value of this array should be:
