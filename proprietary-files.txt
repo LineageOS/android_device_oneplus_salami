@@ -1396,6 +1396,9 @@ odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_60:vendor/firmware/sn100u_22861.bin
 odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u_22811.bin
 
+# Secure Element
+odm/etc/vintf/manifest/manifest_secure_element.xml
+
 # Sensors config
 odm/etc/sensor/config/kailua_mtp_ak0991x.json
 odm/etc/sensor/config/kailua_mtp_alsps.json
