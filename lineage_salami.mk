@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2025 The LineageOS Project
+# Copyright (C) 2021-2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,8 +23,8 @@ PRODUCT_MODEL := CPH2449
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1763448627541 release-keys" \
-    BuildFingerprint=OnePlus/CPH2449EEA/OP594DL1:16/TP1A.220905.001/T.R4T3.41f7299-20ec7a0-20f230d:user/release-keys \
+    BuildDesc="qssi-user 16 BP2A.250605.015 1765979429525 release-keys" \
+    BuildFingerprint=OnePlus/CPH2449EEA/OP594DL1:16/TP1A.220905.001/T.R4T3.1c7c236_518927_518925:user/release-keys \
     DeviceName=OP594DL1 \
     DeviceProduct=CPH2449 \
     SystemDevice=OP594DL1 \
