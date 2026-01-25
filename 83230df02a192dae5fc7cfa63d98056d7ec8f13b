@@ -16,6 +16,24 @@
       "message": "Removal doesn\u0027t look correct.",
       "revId": "83230df02a192dae5fc7cfa63d98056d7ec8f13b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "102fc459_4ec64e97",
+        "filename": "overlay/OPlusSystemUIResTarget/res/drawable/rounded.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-25T23:02:02Z",
+      "side": 0,
+      "message": "Not needed anyway.",
+      "parentUuid": "a0d66b50_6afd519e",
+      "revId": "83230df02a192dae5fc7cfa63d98056d7ec8f13b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
