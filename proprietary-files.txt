@@ -1,9 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus 11 5G (CPH2449_16.0.2.400(EX01)).
 
-# Current blobs with ELF checks disabled:
-# libclstc_fodcolor_csc depends on libhdr_backlight_adapter which is in common tree
-
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
 odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
@@ -1251,9 +1248,6 @@ odm/firmware/fastchg/22861/bms_heating_config.txt
 odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
 odm/firmware/fastchg/22861/charging_thermal_config_default.txt
 odm/firmware/fastchg/smart_chg_config_table.txt
-
-# Display
-odm/lib64/libclstc_fodcolor_csc.so;DISABLE_CHECKELF
 
 # Display (Pixelworks)
 odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
