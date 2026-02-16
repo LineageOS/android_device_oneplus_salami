@@ -1256,6 +1256,39 @@ odm/firmware/fastchg/smart_chg_config_table.txt
 odm/lib64/libclstc_fodcolor_csc.so;DISABLE_CHECKELF
 
 # Display (Pixelworks)
+odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
+odm/bin/irisConfig
+odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc
+odm/etc/vintf/manifest/vendor.pixelworks.hardware.display@1.2.xml
+odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml
+odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7.so
+odm/lib64/libpwirisIoctlWrapper.so
+odm/lib64/libpwirisPCS.so
+odm/lib64/libpwiriscalibrate.so
+odm/lib64/libpwirisfeature.so
+odm/lib64/libpwirishalwrapper.so
+odm/lib64/libpwirispq.so
+odm/lib64/libpwirisservicei7.so
+odm/lib64/libpwirissoft.so
+odm/lib64/libpwsoftirisPCS.so
+odm/lib64/libsnapdragoncolor-pxlw.so
+odm/lib64/vendor.pixelworks.hardware.display@1.0.so
+odm/lib64/vendor.pixelworks.hardware.display@1.1.so
+odm/lib64/vendor.pixelworks.hardware.display@1.2.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
+vendor/lib64/libpwirisfeature.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libpwirisfeaturehal.so
+vendor/lib64/libpwirishal.so
+vendor/lib64/libpwirishalwrapper.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.pixelworks.hardware.display@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.pixelworks.hardware.display@1.1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.pixelworks.hardware.display@1.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so
+vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.pixelworks.hardware.feature@1.1.so;MODULE_SUFFIX=_vendor
+
+# Display (Pixelworks configs)
 odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
 odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
 odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
