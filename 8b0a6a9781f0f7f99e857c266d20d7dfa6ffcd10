@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c53fe56_c1ab2f21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2026-03-02T03:00:43Z",
+      "side": 1,
+      "message": "I tried avoiding UpfpsExtension with OSS composer on SM8450 but then I remember coming across issues. I think, in the lockscreen, the battery pill is going to look very bright compared to the rest of the UI and the same for the dot when microphone is being used. Basically anything above WindowManager.LayoutParams.TYPE_NAVIGATION_BAR_PANEL would appear in HBM",
+      "revId": "8b0a6a9781f0f7f99e857c266d20d7dfa6ffcd10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
