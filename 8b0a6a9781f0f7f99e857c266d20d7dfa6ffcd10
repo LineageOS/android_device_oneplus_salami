@@ -33,6 +33,24 @@
       "message": "I\u0027ll keep this open for a bit, but I haven\u0027t really noticed those issues.",
       "revId": "8b0a6a9781f0f7f99e857c266d20d7dfa6ffcd10",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b3527ea_ef358c04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-03-08T10:52:08Z",
+      "side": 1,
+      "message": "Here what I found was that it would become very unreliable when unlocking with minimum brightness. I am going ot leave it.",
+      "parentUuid": "8c53fe56_c1ab2f21",
+      "revId": "8b0a6a9781f0f7f99e857c266d20d7dfa6ffcd10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
