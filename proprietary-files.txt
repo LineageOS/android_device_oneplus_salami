@@ -1374,6 +1374,14 @@ vendor/etc/ltm_config_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml
 
+# Dolby Vision
+odm/bin/hw/dvs-hal-service
+odm/etc/dolby_vision.cfg
+odm/etc/init/vendor.dolby.media.dvs-service.rc
+odm/etc/vintf/manifest/vendor.dolby.media.dvs-service.xml
+odm/etc/media_codecs_dolby_vision.xml:vendor/etc/media_codecs_dolby_vision.xml
+odm/lib64/vendor.dolby.dvs@1.0.so
+
 # eUICC
 my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
 my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
