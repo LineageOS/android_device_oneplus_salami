@@ -32,6 +32,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
+    EuiccPolicyResTarget \
     FrameworksResEuicc_EU \
     FrameworksResEuicc_NA \
     KeyHandlerResTarget \
