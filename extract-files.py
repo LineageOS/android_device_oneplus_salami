@@ -50,7 +50,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'odm/etc/resourcemanager.xml': blob_fixup()
+    'vendor/etc/resourcemanager.xml': blob_fixup()
         .regex_replace('<speaker_protection_enabled>1</speaker_protection_enabled>', '<speaker_protection_enabled>0</speaker_protection_enabled>'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),

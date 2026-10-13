@@ -12,9 +12,9 @@ odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so
 odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so
 
 # Audio configs
-odm/etc/mixer_paths.xml
-odm/etc/resourcemanager.xml
-odm/etc/usecaseKvManager.xml
+odm/etc/mixer_paths.xml:vendor/etc/mixer_paths.xml
+odm/etc/resourcemanager.xml:vendor/etc/resourcemanager.xml
+odm/etc/usecaseKvManager.xml:vendor/etc/usecaseKvManager.xml
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
