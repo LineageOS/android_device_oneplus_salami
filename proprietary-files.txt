@@ -2,19 +2,19 @@
 ## are from OnePlus 11 5G (CPH2449_16.0.5.1301(EX01)).
 
 # ACDB
-odm/etc/acdbdata/FTM/acdb_cal.acdb
-odm/etc/acdbdata/FTM/workspaceFileXml.qwsp
+odm/etc/acdbdata/FTM/acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/FTM/acdb_cal.acdb
+odm/etc/acdbdata/FTM/workspaceFileXml.qwsp:vendor/etc/acdbdata/kalama_mtp/FTM/workspaceFileXml.qwsp
 odm/etc/acdbdata/Audio_Parameter_Version.txt
-odm/etc/acdbdata/acdb_cal.acdb
+odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/acdb_cal.acdb
 
 # ADSP modules
 odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so
 odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so
 
 # Audio configs
-odm/etc/mixer_paths.xml
-odm/etc/resourcemanager.xml
-odm/etc/usecaseKvManager.xml
+odm/etc/mixer_paths.xml:vendor/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml;TRYSRCFIRST
+odm/etc/resourcemanager.xml:vendor/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml;TRYSRCFIRST
+odm/etc/usecaseKvManager.xml:vendor/etc/usecaseKvManager.xml;TRYSRCFIRST
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
